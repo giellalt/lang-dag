@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-! !!            !!!Dagbani morphological analyser                      !
+! !!            !!!Dagbani morphological analyser                      
 ! ========================================================================== !
 !! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Dagbani LANGUAGE.
  
@@ -32,7 +32,8 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
-
+ +Dist +Prox
+ 
 !! The Usage extents are marked using following tags:
  +Err/Orth   
  +Use/-Spell 
@@ -40,7 +41,8 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
  +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
-
+ +Anim +Inan
+ 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
 !! The comparative forms are:
@@ -143,6 +145,7 @@ LEXICON Root
 0   Pronouns    ;
 0   Numerals    ;
 0   Prefixes    ;
+0   Particles	;
     Punctuation ;
     Symbols     ;
 
