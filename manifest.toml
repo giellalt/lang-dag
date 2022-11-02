@@ -1,8 +1,8 @@
-name = "Undefined"
+name = "Dagbani"
 version = "0.1.0"
 
 [macos]
-system_pkg_id = "no.divvun.MacDivvun.und"
+system_pkg_id = "no.divvun.MacDivvun.dag"
 
 [windows]
-system_product_code = "{REPLACE_WITH_REAL_SYSTEM_PROD_CODE}_is1"
+system_product_code = "{31902232-972B-4A87-A5C2-A53FF8052C45}_is1"
