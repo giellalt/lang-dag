@@ -2,14 +2,36 @@
 !  ---------------
 !! The Dagbani language nouns inflect in cases.
 
+
+
+LEXICON n1
++N+Sg:%>li # ;
++N+Pl:%>a # ;
+
+LEXICON n2
++N+Sg:%>a # ;
++N+Pl:%>ba # ;
+
+LEXICON n3
++N+Sg:%>ga # ;
++N+Pl:%>si # ;
+
+LEXICON n4
++N+Sg:%>gu # ;
++N+Pl:%>ri # ;
+
+LEXICON n5
++N+Sg:%>gu # ;
++N+Pl:%>a # ;
+
+LEXICON n6 ! TODO: fix m/mm when examples.
++N+Sg: # ;
++N+Pl:%>a # ;
+
+
+
 LEXICON Cases
- +N+Sg+nom:0   #     ;
- +N+Pl+nom:i   #     ;
- +N+Sg+loc:as  #     ;
- +N+Pl+loc:ias #     ;
- +N+Sg+acc:at  #     ;
- +N+Pl+acc:iat #     ;
-         #:0   Nouns ;
+# ; ! remove when not needed.
 
 ! vim: set ft=xfst-lexc:
 
