@@ -10,6 +10,7 @@ wabgu:wab n4 "elephant" ;
 kurgu:kur n5 "old" ;
 koma:kom n6 "water" ;
 
+sòònga:sòòn n3 "rabbit" ;
 
 
 ! vim: set ft=xfst-lexc:

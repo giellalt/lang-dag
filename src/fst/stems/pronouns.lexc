@@ -3,6 +3,60 @@
 !! Pronouns in the Dagbani language are references to things.
 
 LEXICON Pronouns
-pronoun    Cases   ;
++Pron+Pers: Personal ;
++Pron+Pers+Emph: Emphatic ;
++Pron+Recipr: Reciprocal ;
++Pron+Refl:maŋa # ; ! The rest under Personal
++Pron+Dem: Demonstrative ;
+
+LEXICON Personal
+! Preverbal pronouns serve as subjects of a verb
++Sg1:n Reflexive ;
++Sg2:a Reflexive ;
++Sg3+Anim:o Reflexive ;
++Sg3+Inan:di Reflexive ;
++Pl1:ti Reflexive ;
++Pl2:yi Reflexive ;
++Pl3+Anim:bɛ Reflexive ;
++Pl3+Inan:di Reflexive ;
++Pl3+Inan:ŋa Reflexive ;
+
+! Postverbal pronouns usually denote objects
++Sg1:ma # ;
++Sg2:a # ;
++Sg3+Anim:o # ;
++Sg3+Inan:li # ;
++Pl1:ti # ;
++Pl2:ya # ;
++Pl3+Anim:ba # ;
++Pl3+Inan:li # ;
++Pl3+Inan:ŋa # ;
+
+LEXICON Emphatic
++Sg1:mani # ;
++Sg2:nyini # ;
++Sg3+Anim:ŋuni # ;
++Sg3+Anim:ŋuna # ;
++Sg3+Inan:dini # ;
++Sg3+Inan:dina # ;
++Pl1:tinima # ;
++Pl2:yinima # ;
++Pl3+Anim:bɛna # ;
++Pl3+Anim:bana # ;
++Pl3+Inan:ŋana # ;
+
+
+LEXICON Reciprocal
+taba # ;
+
+LEXICON Reflexive
+# ; ! These are the plain pronouns
++Refl:/%-maŋa # ;
+
+LEXICON Demonstrative
++Dem+Prox+Sg:ŋɔ # ;
++Dem+Dist+Sg:ŋɔ% há # ;
++Dem+Prox+Pl:ŋɔnímá # ;
++Dem+Dist+Pl:ŋɔnímá% há # ; 
 
 ! vim: set ft=xfst-lexc:
