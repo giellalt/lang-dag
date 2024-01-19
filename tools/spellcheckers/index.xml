@@ -2,7 +2,7 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>dag</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Dagbani</title>
+    <title>Dagbani</title>
     <description>This is an fst-based speller for Dagbani. It is based
     on the normative subset of the morphological analyser for Dagbani.
     The source code can be found at:
