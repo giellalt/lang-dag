@@ -1,6 +1,18 @@
 name = "Dagbani"
 version = "0.1.0"
 
+# Name of the speller package in various languages.
+# The default is English + autonym:
+[speller.name]
+en = "Dagbani spellchecker"
+dag = "Autonym spellchecker"
+
+# Description of the speller package in various languages.
+# The default is English + autonym:
+[speller.description]
+en = "A spellchecker for Dagbani, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+dag = "TRANSLATE: A spellchecker for Dagbani, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+
 [macos]
 system_pkg_id = "no.divvun.MacDivvun.dag"
 
