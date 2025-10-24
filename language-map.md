@@ -1,0 +1,15 @@
+```geojson
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Dagbani",
+    "radius": 200,
+    "marker-color": "#ff4444",
+    "marker-size": "large"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-0.43227, 9.64745]
+  }
+}
+```
